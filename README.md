@@ -70,3 +70,10 @@ To flash a particular target using an ST-LINK programmer, run:
 ```
 make flash-<target>
 ```
+
+To checkout and commit from local repo:
+
+```
+ssh-keygen -t ed25519 -C "tarnbin@gmail.com"
+git remote set-url origin git@github.com:yakeshi/ESCape32.git
+```
